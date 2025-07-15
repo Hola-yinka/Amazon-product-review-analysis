@@ -54,7 +54,7 @@ To prepare the dataset for accurate analysis, the following cleaning steps were 
   - Discount Ranges: `0–10%`, `11–20%`, ..., `81–93%`
   - Rating Levels: Rounded to nearest whole number
 
-## 📊 Business Analysis Summary (Tasks 1–14)
+## Business Analysis Summary (Tasks 1–14)
 
 1. **Average Discount % by Product Category:**  
 The average discount percentage varies significantly across categories. Categories like **Home & Kitchen**, **Electronics**, and **Office Products** offer the highest discounts — often exceeding 40%. In contrast, categories such as **Books** and **Musical Instruments** offer much lower average discounts, possibly due to niche pricing or stable demand.
@@ -102,6 +102,7 @@ Using a composite score of **Rating + (Review Count / 1000)**, the top 5 product
 
 Below is a snapshot of the final interactive dashboard built in Microsoft Excel using pivot tables, slicers, and visual charts:
 
-![Amazon Product Dashboard]()
+![Amazon Product Dashboard](https://github.com/Hola-yinka/Amazon-product-review-analysis/blob/main/dashboard.PNG)
+
 
 
