@@ -1,6 +1,6 @@
 # Amazon-product-review-analysis
 
-This is a project given by DataSkilLUPAfrica (DSA) to analyze a dataset of Amazon-listed products using Microsoft Excel.
+This is a project given by DigitalSkilLUpAfrica (DSA) to analyze a dataset of Amazon-listed products using Microsoft Excel.
 
 The goal of the analysis is to uncover insights around pricing strategy, discount effectiveness, customer reviews, and product performance. Microsoft Excel tools such as formulas, pivot tables, and charts were used to answer business questions and build a professional dashboard for decision-making.
 
@@ -54,6 +54,21 @@ To prepare the dataset for accurate analysis, the following cleaning steps were 
   - Discount Ranges: `0–10%`, `11–20%`, ..., `81–93%`
   - Rating Levels: Rounded to nearest whole number
 
+##  Tools Used
+
+The following tools and features were used throughout the project for data preparation, analysis, and dashboard creation:
+
+- **Microsoft Excel**
+  - **Power Query**: For data cleaning, column renaming, spliting columns and filtering null/duplicate rows.
+  - **Pivot Tables**: For summarizing metrics like total reviews, average discounts, product counts, and potential revenue.
+  - **Pivot Charts**: Used to visualize categories, discount buckets, ratings, and revenue.
+  - **Slicers**: For interactive filtering by Category, Rating, and Price Bucket.
+  - **Custom Data Labels**: Displayed in thousands (K) for better readability in charts.
+    
+- **Visualization Design**
+  - Used a combination of KPI cards, bar charts, pie charts, and line charts
+  - Maintained a consistent and minimal design for clarity and insight delivery
+
 ## Business Analysis Summary (Tasks 1–14)
 
 1. **Average Discount % by Product Category:**  
@@ -98,11 +113,67 @@ Categories like **Office Products** and **Home & Kitchen** feature the most deep
 14. **Top 5 Products by Rating + Reviews Combined:**  
 Using a composite score of **Rating + (Review Count / 1000)**, the top 5 products identified are those that are both highly rated and heavily reviewed. These items represent the best combination of quality and popularity, ideal for hero banners or promotional bundles.
 
+## Charts Used in the Dashboard
+
+The following are the visual charts used in building the Excel dashboard. Each chart was created based on the pivot table outputs and calculated columns from the cleaned dataset.
+
+| No. | Chart Title                                       | Description                                                   | Image |
+|-----|---------------------------------------------------|---------------------------------------------------------------|-------|
+| 1.  | Average Discount % by Category                    | Compares the average discount percentage across categories.   | Avg Discount (<img width="670" height="250" alt="chart 9" src="https://github.com/user-attachments/assets/813e3bd2-3606-4f91-a39c-12ab230c35a3" />
+) |
+| 2.  | Total Reviews per Category                        | Displays the total review count for each category.            | Total Reviews (<img width="723" height="259" alt="chart8" src="https://github.com/user-attachments/assets/d106da12-2337-43e3-b701-78c94dbb3ccb" />
+) |
+| 3.  | Top Rated Products                                | Highlights products with the highest average ratings.         | Top Rated (<img width="716" height="269" alt="chart7" src="https://github.com/user-attachments/assets/84ba1eda-0528-4735-8129-c680da000a6d" />
+) |
+| 4.  | Average Actual vs Discounted Price by Category    | Compares actual vs discounted prices per category.            | Price Comparison (<img width="781" height="274" alt="chart6" src="https://github.com/user-attachments/assets/321bda5b-e135-441c-aea0-42f6601003a3" />
+) |
+| 5.  | Most Reviewed Products                            | Displays the top products by number of reviews.               | Most Reviewed (<img width="737" height="267" alt="chart5" src="https://github.com/user-attachments/assets/5923f856-5f86-4505-94e0-e4db0eaa4b9e" /> 
+) |
+| 6.  | Product Rating Distribution                       | Shows the distribution of average product ratings.            | Rating Distribution (<img width="723" height="271" alt="chart 4" src="https://github.com/user-attachments/assets/e617a645-3290-4098-9a02-ab784deccf03" />
+) |
+| 7.  | Potential Revenue per Category                    | Estimates revenue using actual price × rating count.          | Revenue (<img width="722" height="266" alt="chart3" src="https://github.com/user-attachments/assets/70921c28-c0d5-436b-999f-c885f17b433f" />
+) |
+|8.  | Product Count by Price Bucket                     | Groups products by price ranges (₦1,000–₦20,000+).            | Price Bucket (<img width="685" height="261" alt="chart2" src="https://github.com/user-attachments/assets/ea1bd82a-8425-470b-ad86-c5169fd45d0b" />
+) |
+| 9.  | Discount % vs Average Rating                      | Compares rating trends across discount buckets.               |  Discount vs Rating (<img width="664" height="274" alt="chart 1" src="https://github.com/user-attachments/assets/04aac33a-9e84-4413-a065-297d171f95db" />
+)
+
 ## Final Excel Dashboard
 
 Below is a snapshot of the final interactive dashboard built in Microsoft Excel using pivot tables, slicers, and visual charts:
 
 ![Amazon Product Dashboard](https://github.com/Hola-yinka/Amazon-product-review-analysis/blob/main/dashboard.PNG)
 
+##  Amazon Product Insights Summary
+
+Here are the top-level insights generated from analyzing 1,465 Amazon products across 16 fields:
+
+-  **Top Categories by Popularity & Revenue:**  
+  *Electronics*, *Home & Kitchen*, and *Computers & Accessories* lead in both product count and total reviews, indicating strong customer interest and high earning potential.
+
+-  **Average Discounts Vary Widely:**  
+  Discounts range from under 10% to over 90%, with **Office Products** and **Home & Kitchen** offering some of the largest markdowns.
+
+-  **Rating Sweet Spot is 4.0 – 4.5 Stars:**  
+  Most products fall in this range, showing general satisfaction. Extreme discounts (>80%) do not always lead to better ratings.
+
+-  **Mid-Priced Products Dominate:**  
+  The majority of products are priced between **₦1,001 and ₦5,000**, suggesting affordability is key for this audience.
+
+-  **25% of Products Are Under-Reviewed (<1,000 Reviews):**  
+  These products lack visibility and might benefit from improved SEO, marketing, or better positioning.
+
+-  **Top 5 Products (High Rating + High Reviews):**  
+  These standout items are ideal for banner placements, bundling, or upselling due to their proven popularity and performance.
+
+-  **Best Performing Discount Buckets:**  
+  Products with **21–60% discounts** strike the best balance between attractiveness and customer satisfaction.
+
+##  Contact
+
+Prepared and documented by **Olayinka Ogunmilade**
+- 📧 Email: Ogunmiladeolayinka122@gmail.com  
+- 💼 LinkedIn: [linkedin.com/in/olayinka](https://www.linkedin.com/in/olayinka-ogunmilade/)  
+Feel free to connect, collaborate, or reach out for any questions or feedback.
 
 
