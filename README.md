@@ -51,7 +51,7 @@ To prepare the dataset for accurate analysis, the following cleaning steps were 
   - `Combined Score` = `Rating + (Rating Count / 1000)`
 - **Generated bucket columns** for better analysis:
   - Price Buckets: `<₦1,000`, `₦1,001–₦5,000`, `₦5,001–₦20,000`, `>₦20,000`
-  - Discount Ranges: `0–10%`, `11–20%`, ..., `81–93%`
+  - Discount Ranges: `0–10%`, `11–20%`, ..., `81–94%`
   - Rating Levels: Rounded to nearest whole number
 
 ##  Tools Used
