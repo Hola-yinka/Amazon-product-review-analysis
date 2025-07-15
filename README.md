@@ -158,7 +158,7 @@ Here are the top-level insights generated from analyzing 1,465 Amazon products a
   Most products fall in this range, showing general satisfaction. Extreme discounts (>80%) do not always lead to better ratings.
 
 -  **Mid-Priced Products Dominate:**  
-  The majority of products are priced between **₦1,001 and ₦5,000**, suggesting affordability is key for this audience.
+  The majority of products are priced between **0 and 1,000**, suggesting affordability is key for this audience.
 
 -  **25% of Products Are Under-Reviewed (<1,000 Reviews):**  
   These products lack visibility and might benefit from improved SEO, marketing, or better positioning.
@@ -167,13 +167,22 @@ Here are the top-level insights generated from analyzing 1,465 Amazon products a
   These standout items are ideal for banner placements, bundling, or upselling due to their proven popularity and performance.
 
 -  **Best Performing Discount Buckets:**  
-  Products with **21–60% discounts** strike the best balance between attractiveness and customer satisfaction.
+  Products with **41–60% discounts** strike the best balance between attractiveness and customer satisfaction.
 
 ##  Contact
 
 Prepared and documented by **Olayinka Ogunmilade**
-- 📧 Email: Ogunmiladeolayinka122@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/olayinka](https://www.linkedin.com/in/olayinka-ogunmilade/)  
+-   Email: Ogunmiladeolayinka122@gmail.com  
+-   LinkedIn: [linkedin.com/in/olayinka](https://www.linkedin.com/in/olayinka-ogunmilade/)  
 Feel free to connect, collaborate, or reach out for any questions or feedback.
 
+##  Acknowledgments
+
+This project was completed as part of the **Data Analysis with EXECL track** by **DigitalSkillUpAfrica (DSA)**.
+
+-    Special thanks to **The Incubator Hub** for mentorship and community support.  
+-    Dataset provided by **DigitalSkillUpAfrica (DSA)**.  
+-    Project executed using Microsoft Excel, Power Query, and data visualization tools.
+
+The project demonstrates how spreadsheet tools can turn raw e-commerce data into valuable business insights.
 
